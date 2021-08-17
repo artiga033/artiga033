@@ -1,16 +1,19 @@
-### Hi there 👋
+### ℹ About artiga033
+n00b .NET developer **|** Average Eletronic Game Player(& on my way to a creater) **|** still at school 
 
-<!--
-**artiga033/artiga033** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Currently learning: ![](https://img.shields.io/badge/-Unity-%23444444?logo=Unity) ![](https://img.shields.io/badge/-Rust-%23444444?logo=Rust)
 
-Here are some ideas to get you started:
+Contact me:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📧 [artiga033@hotmail.com](mailto:artiga033@hotmail.com)
+
+Thank you for seeing this page.
+
+My Stack:
+
+|               | CanRead            |          |
+|---------------|--------------------|----------|
+| **CanWrite**  |C#,Javascript,Python|C/C++,Golang
+|               |Java,php,Lua,Rust   |
+
+![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=artiga033&layout=compact&langs_count=10&bg_color=33,4A9E9F,A8E6E6 "languages")
