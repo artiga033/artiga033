@@ -1,4 +1,4 @@
-### ℹ About artiga033
+### ℹ About artiga033   ![](https://visitor-badge.laobi.icu/badge?page_id=artiga033.artiga033)
 
 n00b .NET developer **|** Average Eletronic Game Player(& on my way to a creater) **|** still at school 
 
