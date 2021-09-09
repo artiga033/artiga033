@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://s.a33.su/Symbol_Forerunner_like.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://s.a33.su/Symbol_Forerunner_like.svg" type="image/x-icon">
+    <title>artiga033</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        *::selection{
+            background-color:#BAE5BF55 ;
+        }
+        html,body{
+            font-family: sans-serif;
+        }
+        div.bg {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: -2;
+        }
+        #bg-layer {
+            opacity: 0.33;
+            background-color: #fff;
+            z-index: -1;
+        }
+
+        #bg-img {
+            background-image: url("https://s.a33.su/e3-2018-halo-infinite-cover-1920x1080.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        ul.link-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            list-style: none;
+            min-width: fit-content;
+        }
+        ul.link-list li {
+            font-size: 20px;
+            transition: .3s;
+            background-color: #D8D3E221;
+        }
+        ul.link-list li:hover {
+            background-color: #D8D3E2ee;
+        }
+        ul.link-list li a {
+            padding: 0 1em;
+            text-decoration: none;
+            display: list-item;
+        }
+        ul.link-list svg, ul.link-list img{
+            width: 1em;
+            height: 1em;
+        }
+        @media only screen and (max-width:767px) {
+            header {
+                margin: 5% 0 0 0;
+                min-width: 100%;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+            }
+            main {
+                margin: 3.3em 0;
+                min-width: 100%;
+            }
+            footer {
+                margin: 0 0 5% 0; 
+                min-width: 100%;
+            }
+            ul.link-list {
+                flex-direction: row;
+                padding: 0;
+            }
+            .card {
+                margin: 28px;
+            }
+        }
+
+        @media only screen and (min-width:768px) {
+            header {
+                margin: 5% 13.33% 0 13.33%;
+                min-width: 73.34%;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            main {
+                margin: 3.3em 13.33%;
+                min-width: 73.34%;
+            }
+            footer {
+                margin: 0 13.33% 5% 13.33%;
+                max-width: 73.34%;
+            }
+            ul.link-list {
+                flex-direction: column;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .card {
+                padding: 28px;
+            }
+        }
+        @media only screen and (min-width:1440px) {
+            header ul {
+                border-left: #ffffff54 solid 15vw;
+            }
+        }
+        header{
+            display: flex;
+        }
+        main h1::before,main h2::before,main h3::before,main h4::before,main h5::before,main h6::before {
+            content: '< ';
+            color: #24A5FF;
+        }
+        footer{
+            text-align: center;
+            color: #6e96a7;
+        }
+        p {
+            border-left: .5em solid #2E78E2;
+        }
+
+        .card {
+            background-color: #ffffff54;
+            border-radius: 2px;
+            -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, .132), 0 .3px .9px 0 rgba(0, 0, 0, .108);
+            box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, .132), 0 .3px .9px 0 rgba(0, 0, 0, .108);
+            -webkit-transform: translate3d(0, 48px, 0);
+            transform: translate3d(0, 48px, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div aria-label="background layer" id="bg-layer" class="bg"></div>
+    <div aria-label="background image" id="bg-img" class="bg"></div>
+    <header>
+        <div aria-label="basic info" class="card">
+            <img src="https://s.a33.su/avatar.png" alt="avatar" width="250px" height="250px"
+                style="display: inline-block; border-radius: 50%;vertical-align: middle;filter: drop-shadow(-5px -1px 10px #BDECFF);">
+            <div aria-label="name and email" style="display: inline-block; vertical-align: middle;">
+                <h1 style="display: inline;">artiga033</h1><a style="text-decoration: none;color: #1898CC;"
+                    href="mailto:artiga033@hotmail.com">
+                    &lt;artiga033@hotmail.com&gt;
+                </a>
+            
+            <div aria-label="infomation">
+                <p lang="zh">菜鸡开发者 | 普通游戏玩家 | 是学生！</p>
+               <p lang="en">Noob Developer|Average Gamer|Still Student</p>
+            </div></div>
+        </div>
+        <ul aria-label="links" class="card link-list">
+            <li><a target="_blank" href="https://blog.artiga.top"><img src="https://s.a33.su/Symbol_Forerunner_like.png" type="image/svg+xml">
+                </img> Blog</a></li>
+            <li><a target="_blank" href="https://github.com/artiga033"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>Github</a></li>
+            <li><a target="_blank" href="https://t.me/artiga033"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Telegram</title><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                </svg>Telegram</a></li>
+            
+        </ul>
+    </header>
+    <main>
+        <section class="card">
+            <h1>更多信息...</h1>
+            <p>Nothing yet</p>
+        </section>
+    </main>
+    <footer>
+        <div class="card">
+        <span aria-label="copyright note">copyright © 2021 artiga033<br>
+        This page is opensource and free to fork and modify, without any limitation.
+        The illustration and logos are only for representation purpose.They have their own licenses.
+    </span></div>
+    </footer>
+</body>
+
+</html>
