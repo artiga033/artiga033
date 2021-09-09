@@ -4,7 +4,7 @@ n00b .NET developer **|** Average Eletronic Game Player(& on my way to a creater
 
 Currently learning: ![](https://img.shields.io/badge/-Unity-%23444444?logo=Unity) ![](https://img.shields.io/badge/-Rust-%23444444?logo=Rust)
 
-Find me:
+Find me: [a33.su](https://a33.su)
 
 <img width="16px" height="16px" src="https://blog.artiga.top/favicon.png" />[Blog](https://blog.artiga.top)<br/>
 📧 [artiga033@hotmail.com](mailto:artiga033@hotmail.com)<br/>
