@@ -55,23 +55,42 @@
         ul.link-list li {
             font-size: 20px;
             transition: .3s;
+            padding: 0 1em;
             background-color: #D8D3E221;
+            border-bottom: solid #88888888 0.1em;
         }
 
         ul.link-list li:hover {
             background-color: #D8D3E2ee;
         }
 
-        ul.link-list li a {
-            padding: 0 1em;
+        ul.link-list li a,
+        ul.link-list li a:visited {
+            color: #259acb;
             text-decoration: none;
             display: list-item;
         }
 
-        ul.link-list svg,
-        ul.link-list img {
+        ul.link-list .icon {
             width: 1em;
             height: 1em;
+        }
+
+        ul.link-list[data-list-type="gameid"] {
+            flex-direction: column;
+        }
+
+        .gameid-dis {
+            display: flex;
+            justify-content: space-between;
+            color: #586e81;
+        }
+
+        .gameid-dis::before {
+            content: attr(data-plat);
+            color: #000;
+            pointer-events: none;
+            cursor: text;
         }
 
         @media only screen and (max-width:767px) {
@@ -127,6 +146,10 @@
                 padding-right: 0;
             }
 
+            ul.link-list[data-list-type="gameid"] li {
+                padding: 0 10%;
+            }
+
             .card {
                 padding: 28px;
             }
@@ -135,6 +158,10 @@
         @media only screen and (min-width:1440px) {
             header ul {
                 border-left: #ffffff54 solid 15vw;
+            }
+
+            ul.link-list[data-list-type="gameid"] li {
+                padding: 0 20%;
             }
         }
 
@@ -192,15 +219,15 @@
             </div>
         </div>
         <ul aria-label="links" class="card link-list">
-            <li><a target="_blank" href="https://blog.artiga.top"><img src="https://s.a33.su/Symbol_Forerunner_like.png"
-                        type="image/svg+xml"></img>Blog</a></li>
-            <li><a target="_blank" href="https://github.com/artiga033"><svg role="img" viewBox="0 0 24 24"
+            <li><a target="_blank" href="https://blog.artiga.top"><img class="icon"
+                        src="https://s.a33.su/Symbol_Forerunner_like.png" type="image/svg+xml"></img>Blog</a></li>
+            <li><a target="_blank" href="https://github.com/artiga033"><svg class="icon" role="img" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <title>GitHub</title>
                         <path
                             d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                     </svg>Github</a></li>
-            <li><a target="_blank" href="https://t.me/artiga033"><svg role="img" viewBox="0 0 24 24"
+            <li><a target="_blank" href="https://t.me/artiga033"><svg class="icon" role="img" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <title>Telegram</title>
                         <path
@@ -209,9 +236,61 @@
         </ul>
     </header>
     <main>
-        <section class="card">
-            <h1>更多信息...</h1>
-            <p>Nothing yet</p>
+        <section lang="zh" class="card">
+            <h1>基本信息</h1>
+            <p>
+            <ul>
+                <li>人类</li>
+                <li>INFP-A</li>
+                <li>中文(中国),中文(繁體),English(US),日本語勉強しています</li>
+                <li>不会组织语言于是只能使用无序列表了这样子</li>
+            </ul>
+            </p>
+        </section>
+        <section lang="zh" class="card">
+            <h1>Platforms</h1>
+            <img src="https://img.shields.io/static/v1?label=Windows&message=ASUS%20TUF%20Gaming%20A15&color=%23e3e3e3&labelColor=%230078D6&style=for-the-badge&logo=windows11"
+                alt="Windows-Asus TUF Gaming A15">
+            <img src="https://img.shields.io/static/v1?label=Windows&message=Surface%20Pro%206&color=%23444444&labelColor=%230078D6&style=for-the-badge&logo=windows11"
+                alt="Windows-Surface Pro 6">
+            <img src="https://img.shields.io/static/v1?label=Arch%20Linux&message=WSL&color=%230078D4&labelColor=%23e3e3e3&logo=archlinux&style=for-the-badge"
+                alt="Arch-WSL">
+            <img src="https://img.shields.io/static/v1?label=Kali%20Linux&message=Live%20USB&color=%23c2cad3&labelColor=%23cfd3df&logo=kalilinux&style=for-the-badge"
+                alt="Kali-Live USB">
+            <img src="https://img.shields.io/static/v1?label=Android&message=Redmi%20Note%2011%20Pro&color=%2334CC44&labelColor=%23e3e3e3&logo=android&style=for-the-badge"
+                alt="Android-Redmi Note 11 Pro">
+            <img src="https://img.shields.io/static/v1?label=Nintendo&message=Switch&color=%234460dd&labelColor=%23E60012&logo=nintendoswitch&style=for-the-badge"
+                alt="Nintendo-Switch">
+        </section>
+        <section lang="zh" class="card">
+            <h1>Games</h1>
+            <ul class="link-list" data-list-type="gameid">
+                <li>
+                    <a href="https://steamcommunity.com/id/artiga033" target="_blank" rel="noopener noreferrer">
+                        <span class="gameid-dis" data-plat="Steam">artiga033</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://account.xbox.com/Profile?Gamertag=DeltaArtiga033" target="_blank"
+                        rel="noopener noreferrer">
+                        <span class="gameid-dis" data-plat="Xbox">DeltaArtiga033</span>
+                    </a>
+                </li>
+                <li>
+                    <span class="gameid-dis" data-plat="Nintendo Switch">SW-0791-1891-8701</span>
+                </li>
+                <li><a href="https://osu.ppy.sh/users/10675498" target="_blank" rel="noopener noreferrer">
+                        <span class="gameid-dis" data-plat="osu!">artiga033</span>
+                        <br />
+                        <img src="https://osusig.lolico.moe/sig.php?colour=hex20e3fc&uname=artiga033&pp=1&xpbar&xpbarhex"
+                            alt="osu-sig-artiga033" />
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section lang="zh" class="card">
+            <h1>More..</h1>
+            <span>Nothing yet</span>
         </section>
     </main>
     <footer>
