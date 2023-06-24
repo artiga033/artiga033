@@ -5,16 +5,18 @@ n00b .NET developer **|** Average Electronic Game Player(& on my way to a creato
 Currently learning: ![](https://img.shields.io/badge/-Unity-%23444444?logo=Unity) ![](https://img.shields.io/badge/-blender-%23ffe02b?logo=blender) ![](https://img.shields.io/badge/-Rust-%23f74c00?logo=Rust) ![](https://img.shields.io/badge/-Arduino-%230a5b5f?logo=Arduino) [![](https://img.shields.io/badge/-osu!-%23fdfbfc?logo=osu!)](https://osu.ppy.sh/users/10675498)
 
 Find me: 
-- [a33.su](https://a33.su)
+- [**a33.su**](https://a33.su)
 - <img width="16px" height="16px" src="https://blog.artiga.top/favicon.png" /> [Blog](https://blog.artiga.top)<br/>
 - 📧[artiga033@hotmail.com](mailto:artiga033@hotmail.com)<br/>
+- <img width="16px" height="16px" src="https://matrix.org/assets/favicon.svg" /> [`@artiga033:a33.su`](https://matrix.to/#/@artiga033:a33.su) or [`@artiga033:matrix.org`](https://matrix.to/#/@artiga033:matrix.org)
 - <img width="16px" height="16px" src="https://telegram.org/img/favicon-16x16.png" /> [Telegram](https://t.me/artiga033)
 
 *Even if you may find "me" on any social media, sadly I rarely use them.*
 
 Speaks: zh-Hans-CN, zh-Hant, en-US, partially ja-JP
 
-Platforms:
+My Platforms:
+
 ![Windows-Asus TUF Gaming A15](https://img.shields.io/static/v1?label=Windows&message=ASUS%20TUF%20Gaming%20A15&color=%23e3e3e3&labelColor=%230078D6&style=for-the-badge&logo=windows11)
 ![Windows-Surface Pro 6](https://img.shields.io/static/v1?label=Windows&message=Surface%20Pro%206&color=%23444444&labelColor=%230078D6&style=for-the-badge&logo=windows11)
 ![Arch-WSL](https://img.shields.io/static/v1?label=Arch%20Linux&message=WSL&color=%230078D4&labelColor=%23e3e3e3&logo=archlinux&style=for-the-badge)
