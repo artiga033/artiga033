@@ -10,6 +10,7 @@ Find me:
 - 📧[artiga033@hotmail.com](mailto:artiga033@hotmail.com)<br/>
 - <img width="16px" height="16px" src="https://matrix.org/assets/favicon.svg" /> [`@artiga033:a33.su`](https://matrix.to/#/@artiga033:a33.su) or [`@artiga033:matrix.org`](https://matrix.to/#/@artiga033:matrix.org)
 - <img width="16px" height="16px" src="https://telegram.org/img/favicon-16x16.png" /> [Telegram](https://t.me/artiga033)
+- <img width="16px" height="16px" src="https://mastodon.social/favicon.ico" /> <a rel="me" href="https://mastodon.social/@artiga033">Mastodon</a>
 
 *Even if you may find "me" on any social media, sadly I rarely use them.*
 
