@@ -2,7 +2,7 @@
 
 n00b .NET developer **|** Average Electronic Game Player(& on my way to a creator) **|** still at school 
 
-Currently learning: ![](https://img.shields.io/badge/-Unity-%23444444?logo=Unity) ![](https://img.shields.io/badge/-blender-%23ffe02b?logo=blender) ![](https://img.shields.io/badge/-Rust-%23f74c00?logo=Rust) ![](https://img.shields.io/badge/-Arduino-%230a5b5f?logo=Arduino) [![](https://img.shields.io/badge/-osu!-%23fdfbfc?logo=osu!)](https://osu.ppy.sh/users/10675498)
+Currently learning: ![](https://img.shields.io/badge/-Unity-%23444444?logo=Unity) ![](https://img.shields.io/badge/-blender-%23ffe02b?logo=blender) ![](https://img.shields.io/badge/-Rust-%23f74c00?logo=Rust) [![](https://img.shields.io/badge/-osu!-%23fdfbfc?logo=osu!)](https://osu.ppy.sh/users/10675498)
 
 Find me: 
 - [**a33.su**](https://a33.su)
@@ -14,7 +14,7 @@ Find me:
 
 *Even if you may find "me" on any social media, sadly I rarely use them.*
 
-Speaks: zh-Hans-CN, zh-Hant, en-US, partially ja-JP
+Speaks(familiarity descending): zh-Hans-CN > zh-Hant > en-US > eo > ja-JP 
 
 My Platforms:
 
