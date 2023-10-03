@@ -10,7 +10,7 @@ Find me:
 - 📧[artiga033@hotmail.com](mailto:artiga033@hotmail.com)<br/>
 - <img width="16px" height="16px" src="https://matrix.org/assets/favicon.svg" /> [`@artiga033:a33.su`](https://matrix.to/#/@artiga033:a33.su) or [`@artiga033:matrix.org`](https://matrix.to/#/@artiga033:matrix.org)
 - <img width="16px" height="16px" src="https://telegram.org/img/favicon-16x16.png" /> [Telegram](https://t.me/artiga033)
-- <img width="16px" height="16px" src="https://mastodon.social/favicon.ico" /> <a rel="me" href="https://mastodon.social/@artiga033">Mastodon</a>
+- ~~<img width="16px" height="16px" src="https://mastodon.social/favicon.ico" /> <a rel="me" href="https://mastodon.social/@artiga033">Mastodon</a>~~
 
 *Even if you may find "me" on any social media, sadly I rarely use them.*
 
@@ -18,6 +18,7 @@ Speaks(familiarity descending): zh-Hans-CN > zh-Hant > en-US > eo > ja-JP
 
 My Platforms:
 
+![DIY Desktop PC](https://img.shields.io/static/v1?label=Windows&message=DIY%20Desktop%20PC&color=%23ffffff&labelColor=%230078D6&style=for-the-badge&logo=windows11 "B760M/i5-13490F/Arc A770/32GB DDR5")
 ![Windows-Asus TUF Gaming A15](https://img.shields.io/static/v1?label=Windows&message=ASUS%20TUF%20Gaming%20A15&color=%23e3e3e3&labelColor=%230078D6&style=for-the-badge&logo=windows11)
 ![Windows-Surface Pro 6](https://img.shields.io/static/v1?label=Windows&message=Surface%20Pro%206&color=%23444444&labelColor=%230078D6&style=for-the-badge&logo=windows11)
 ![Arch-WSL](https://img.shields.io/static/v1?label=Arch%20Linux&message=WSL&color=%230078D4&labelColor=%23e3e3e3&logo=archlinux&style=for-the-badge)
