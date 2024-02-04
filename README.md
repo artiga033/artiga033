@@ -19,11 +19,11 @@ Speaks(familiarity descending): zh-Hans-CN > zh-Hant > en-US > eo > ja-JP
 My Platforms:
 
 ![DIY Desktop PC](https://img.shields.io/static/v1?label=Windows&message=DIY%20Desktop%20PC&color=%23ffffff&labelColor=%230078D6&style=for-the-badge&logo=windows11 "B760M/i5-13490F/Arc A770/32GB DDR5")
-![Windows-Asus TUF Gaming A15](https://img.shields.io/static/v1?label=Windows&message=ASUS%20TUF%20Gaming%20A15&color=%23e3e3e3&labelColor=%230078D6&style=for-the-badge&logo=windows11)
+![Arch-Asus TUF Gaming A15](https://img.shields.io/static/v1?label=Arch%20Linux&message=ASUS%20TUF%20Gaming%20A15&color=%23DAE9FE&labelColor=%23B0F4FE&style=for-the-badge&logo=archlinux)
 ![Windows-Surface Pro 6](https://img.shields.io/static/v1?label=Windows&message=Surface%20Pro%206&color=%23444444&labelColor=%230078D6&style=for-the-badge&logo=windows11)
 ![Arch-WSL](https://img.shields.io/static/v1?label=Arch%20Linux&message=WSL&color=%230078D4&labelColor=%23e3e3e3&logo=archlinux&style=for-the-badge)
 ![Kali-Live USB](https://img.shields.io/static/v1?label=Kali%20Linux&message=Live%20USB&color=%23c2cad3&labelColor=%23cfd3df&logo=kalilinux&style=for-the-badge)
-![Android-Redmi Note 11 Pro](https://img.shields.io/static/v1?label=Android&message=Redmi%20Note%2011%20Pro&color=%2334CC44&labelColor=%23e3e3e3&logo=android&style=for-the-badge)
+![Android-Redmi Note 13 Pro](https://img.shields.io/static/v1?label=Android&message=Redmi%20Note%2013%20Pro&color=%2334CC44&labelColor=%23e3e3e3&logo=android&style=for-the-badge)
 ![Nintendo-Switch](https://img.shields.io/static/v1?label=Nintendo&message=Switch&color=%234460dd&labelColor=%23E60012&logo=nintendoswitch&style=for-the-badge)
 
 My Stack:
