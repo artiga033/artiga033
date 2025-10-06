@@ -21,7 +21,7 @@ My Platforms:
 ![Windows-Surface Pro 11](https://img.shields.io/static/v1?label=Windows&message=Surface%20Pro%2011&color=%238ebdda&labelColor=%230078D6&style=for-the-badge&logo=windows11)
 ![ArchLinux(WSL)](https://img.shields.io/static/v1?label=Arch%20Linux&message=WSL&color=%230078D4&labelColor=%23e3e3e3&logo=archlinux&style=for-the-badge)
 ![Arch Linux ARM(WSL)](https://img.shields.io/static/v1?label=Arch%20Linux%20ARM&message=WSL&color=%230078D4&labelColor=%23e3e3e3&logo=archlinux&style=for-the-badge)
-![Android-Redmi Note 13 Pro](https://img.shields.io/static/v1?label=Android&message=Redmi%20Note%2013%20Pro&color=%2334CC44&labelColor=%23e3e3e3&logo=android&style=for-the-badge)
+![Android-OnePlus Ace 5](https://img.shields.io/static/v1?label=Android&message=OnePlus%20Ace%205&color=%23FF0019&labelColor=%231F6527&logo=android&style=for-the-badge)
 ![Nintendo-Switch](https://img.shields.io/static/v1?label=Nintendo&message=Switch&color=%234460dd&labelColor=%23E60012&logo=nintendoswitch&style=for-the-badge)
 
 My Stack:
