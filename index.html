@@ -14,7 +14,7 @@
         }
 
         *::selection {
-            background-color: #BAE5BF55;
+            background-color: #ddffbb73;
         }
 
         html,
@@ -58,6 +58,7 @@
             padding: 0 1em;
             background-color: #D8D3E221;
             border-bottom: solid #88888888 0.1em;
+            backdrop-filter: blur(3px);
         }
 
         ul.link-list li:hover {
@@ -114,6 +115,7 @@
 
             ul.link-list {
                 flex-direction: row;
+                justify-content: space-evenly;
                 padding: 0;
             }
 
@@ -176,17 +178,21 @@
         main h5::before,
         main h6::before {
             content: '< ';
-            color: #24A5FF;
+            color: #6677cc;
         }
 
         footer {
             text-align: center;
-            color: #2277a0;
+            color: #227aa2;
         }
 
         p {
-            border-left: .5em solid #2E78E2;
+            border-left: .5em solid #6677cc;
             padding: 0 .5em;
+        }
+
+        img {
+            max-width: 100%;
         }
 
         .card {
@@ -206,7 +212,7 @@
     <header>
         <div aria-label="basic info" class="card">
             <img src="https://s.a33.su/avatar.png" alt="avatar" width="250px" height="250px"
-                style="display: inline-block; border-radius: 50%;vertical-align: middle;filter: drop-shadow(-5px -1px 10px #BDECFF);">
+                style="display: inline-block; border-radius: 50%;vertical-align: middle;filter: drop-shadow(-5px -1px 10px #ccbbff);">
             <div aria-label="name and email" style="display: inline-block; vertical-align: middle;">
                 <h1 style="display: inline;">artiga033</h1><a style="text-decoration: none;color: #1898CC;"
                     href="mailto:artiga033@hotmail.com">
