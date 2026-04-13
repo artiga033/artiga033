@@ -16,7 +16,7 @@ Speaks(familiarity descending): zh-Hans-CN > zh-Hant > en-US > eo > ja-JP
 
 My Platforms:
 
-![DIY Desktop PC](https://img.shields.io/static/v1?label=Windows&message=DIY%20Desktop%20PC&color=%23ffffff&labelColor=%230078D6&style=for-the-badge&logo=windows11 "B760M/i5-13490F/Arc B580/32GB DDR5")
+![DIY Desktop PC](https://img.shields.io/static/v1?label=Windows&message=DIY%20Desktop%20PC&color=%23ffffff&labelColor=%230078D6&style=for-the-badge&logo=windows11 "B760M/i7-14700KF/Arc B580/32GB DDR5")
 ![Arch-Asus TUF Gaming A15](https://img.shields.io/static/v1?label=Arch%20Linux&message=ASUS%20TUF%20Gaming%20A15&color=%23DAE9FE&labelColor=%23B0F4FE&style=for-the-badge&logo=archlinux)
 ![Windows-Surface Pro 11](https://img.shields.io/static/v1?label=Windows&message=Surface%20Pro%2011&color=%238ebdda&labelColor=%230078D6&style=for-the-badge&logo=windows11)
 ![ArchLinux(WSL)](https://img.shields.io/static/v1?label=Arch%20Linux&message=WSL&color=%230078D4&labelColor=%23e3e3e3&logo=archlinux&style=for-the-badge)
