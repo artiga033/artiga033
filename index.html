@@ -9,12 +9,59 @@
     <link rel="shortcut icon" href="https://s.a33.su/Symbol_Forerunner_like.svg" type="image/x-icon">
     <title>artiga033</title>
     <style>
+        :root {
+            --palette-theme: #ccbbff;
+            --palette-decoration: #ddffbb;
+            --palette-decoration2: #ff8899;
+
+            --color-theme: oklch(from var(--palette-theme) l c h);
+            --color-theme-fg: oklch(from var(--color-theme) var(--color-theme-fg-l, l) var(--color-theme-fg-c, c) var(--color-theme-fg-h, h) / var(--color-theme-fg-a, 1));
+            --color-theme-bg: oklch(from var(--color-theme) var(--color-theme-bg-l, l) var(--color-theme-bg-c, c) var(--color-theme-bg-h, h) / var(--color-theme-bg-a, 1));
+            --color-decoration: oklch(from var(--palette-decoration) l c h);
+            --color-decoration-fg: oklch(from var(--color-decoration) var(--color-decoration-fg-l, l) var(--color-decoration-fg-c, c) var(--color-decoration-fg-h, h) / var(--color-decoration-fg-a, 1));
+            --color-decoration-bg: oklch(from var(--color-decoration) var(--color-decoration-bg-l, l) var(--color-decoration-bg-c, c) var(--color-decoration-bg-h, h) / var(--color-decoration-bg-a, 1));
+            --color-decoration2: oklch(from var(--palette-decoration2) l c h);
+            --color-decoration2-fg: oklch(from var(--color-decoration2) var(--color-decoration2-fg-l, l) var(--color-decoration2-fg-c, c) var(--color-decoration2-fg-h, h) / var(--color-decoration2-fg-a, 1));
+            --color-decoration2-bg: oklch(from var(--color-decoration2) var(--color-decoration2-bg-l, l) var(--color-decoration2-bg-c, c) var(--color-decoration2-bg-h, h) / var(--color-decoration2-bg-a, 1));
+
+            --color-text: oklch(from var(--palette-fg) l c h);
+            --color-surface: oklch(from var(--palette-bg) l c h);
+            --color-surface-a33: oklch(from var(--color-surface) l c h / 0.33);
+            --color-surface-a50: oklch(from var(--color-surface) l c h / 0.50);
+            --color-link: oklch(from var(--color-theme-fg) l c 273);
+            --color-link-visited: oklch(var(--color-link) calc(l-0.1) c h);
+        }
+
+        :root.light {
+            color-scheme: light;
+            --palette-fg: #000;
+            --palette-bg: #fff;
+
+            --color-theme-fg-l: 0.44;
+            --color-theme-fg-c: 0.2;
+            --color-decoration-fg-l: 0.5;
+            --color-decoration2-bg-l: 0.95;
+            --color-decoration2-bg-c: 0.1;
+        }
+
+        :root.dark {
+            color-scheme: dark;
+            --palette-fg: #fff;
+            --palette-bg: #000;
+
+            --color-theme-fg-l: 0.8;
+            --color-decoration-fg-l: 0.8;
+            --color-decoration-bg-l: 0.3;
+            --color-decoration2-bg-l: 0.4;
+            --color-decoration2-bg-c: 0.1;
+        }
+
         * {
             margin: 0;
         }
 
         *::selection {
-            background-color: #ddffbb73;
+            background-color: oklch(from var(--color-decoration2) l 0.2 h / 0.5);
         }
 
         html,
@@ -33,7 +80,7 @@
 
         #bg-layer {
             opacity: 0.33;
-            background-color: #fff;
+            background-color: var(--color-surface);
             z-index: -1;
         }
 
@@ -56,18 +103,18 @@
             font-size: 20px;
             transition: .3s;
             padding: 0 1em;
-            background-color: #D8D3E221;
-            border-bottom: solid #88888888 0.1em;
+            background-color: var(--color-surface-a33);
+            border-bottom: solid var(--color-decoration2-bg) 0.1em;
             backdrop-filter: blur(3px);
         }
 
         ul.link-list li:hover {
-            background-color: #D8D3E2ee;
+            background-color: var(--color-surface-a50);
         }
 
         ul.link-list li a,
         ul.link-list li a:visited {
-            color: #259acb;
+            color: var(--color-theme-fg);
             text-decoration: none;
             display: list-item;
         }
@@ -84,12 +131,12 @@
         .gameid-dis {
             display: flex;
             justify-content: space-between;
-            color: #586e81;
+            color: var(--color-link);
         }
 
         .gameid-dis::before {
             content: attr(data-plat);
-            color: #000;
+            color: var(--color-text);
             pointer-events: none;
             cursor: text;
         }
@@ -159,7 +206,7 @@
 
         @media only screen and (min-width:1440px) {
             header ul {
-                border-left: #ffffff54 solid 15vw;
+                border-left: var(--color-surface-a33) solid 15vw;
             }
 
             ul.link-list[data-list-type="gameid"] li {
@@ -178,17 +225,18 @@
         main h5::before,
         main h6::before {
             content: '< ';
-            color: #6677cc;
+            color: var(--color-theme-fg);
         }
 
         footer {
             text-align: center;
-            color: #227aa2;
+            color: var(--color-theme-fg);
         }
 
         p {
-            border-left: .5em solid #6677cc;
+            border-left: .5em solid var(--color-decoration);
             padding: 0 .5em;
+            color: var(--color-text)
         }
 
         img {
@@ -196,7 +244,7 @@
         }
 
         .card {
-            background-color: #ffffff54;
+            background-color: var(--color-surface-a33);
             border-radius: 2px;
             -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, .132), 0 .3px .9px 0 rgba(0, 0, 0, .108);
             box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, .132), 0 .3px .9px 0 rgba(0, 0, 0, .108);
@@ -245,7 +293,8 @@
     <main>
         <section class="card">
             <h1>Platforms</h1>
-            <img title="B760M/i5-13490F/Arc B580/32GB DDR5" src="https://img.shields.io/static/v1?label=Windows&message=DIY%20Desktop%20PC&color=%23ffffff&labelColor=%230078D6&style=for-the-badge&logo=windows11"
+            <img title="B760M/i5-13490F/Arc B580/32GB DDR5"
+                src="https://img.shields.io/static/v1?label=Windows&message=DIY%20Desktop%20PC&color=%23ffffff&labelColor=%230078D6&style=for-the-badge&logo=windows11"
                 alt="DIY Desktop PC">
             <img src="https://img.shields.io/static/v1?label=Arch%20Linux&message=ASUS%20TUF%20Gaming%20A15&color=%23DAE9FE&labelColor=%23B0F4FE&style=for-the-badge&logo=archlinux"
                 alt="Arch Linux-Asus TUF Gaming A15">
@@ -302,5 +351,21 @@
         </div>
     </footer>
 </body>
+
+<script>
+    const themeSwitch = (matches) => {
+        const root = document.documentElement
+        if (matches) {
+            root.classList.remove('light'); root.classList.add('dark')
+        } else {
+            root.classList.remove('dark'); root.classList.add('light')
+        }
+    }
+    const themeQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    themeSwitch(themeQuery.matches)
+    themeQuery.addEventListener('change', (e) => {
+        themeSwitch(e.matches)
+    });
+</script>
 
 </html>
