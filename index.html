@@ -259,8 +259,12 @@
     <div aria-label="background image" id="bg-img" class="bg"></div>
     <header>
         <div aria-label="basic info" class="card">
-            <img src="https://s.a33.su/avatar.png" alt="avatar" width="250px" height="250px"
-                style="display: inline-block; border-radius: 50%;vertical-align: middle;filter: drop-shadow(-5px -1px 10px #ccbbff);">
+            <picture>
+                <source srcset="https://s.a33.su/avatar.avif" type="image/avif">
+                <source srcset="https://s.a33.su/avatar.webp" type="image/webp">
+                <img src="https://s.a33.su/avatar.png" alt="avatar" width="250px" height="250px"
+                    style="display: inline-block; border-radius: 50%;vertical-align: middle;filter: drop-shadow(-5px -1px 10px #ccbbff);">
+            </picture>
             <div aria-label="name and email" style="display: inline-block; vertical-align: middle;">
                 <h1 style="display: inline;">artiga033</h1><a style="text-decoration: none;color: #1898CC;"
                     href="mailto:artiga033@hotmail.com">
