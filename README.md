@@ -4,11 +4,11 @@ Rust/.NET Dev | ** Average Electronic Game Player(& on my way to a creator)
 
 Find me: 
 - [**a33.su**](https://a33.su)
-- <img width="16px" height="16px" src="https://blog.artiga.top/favicon.png" /> [Blog](https://blog.artiga.top)<br/>
+- <img width="16px" height="16px" src="https://blog.a33.su/favicon.svg" /> [Blog](https://blog.artiga.top)<br/>
 - 📧[artiga033@hotmail.com](mailto:artiga033@hotmail.com)<br/>
-- <img width="16px" height="16px" src="https://matrix.org/assets/favicon.svg" /> [`@artiga033:a33.su`](https://matrix.to/#/@artiga033:a33.su) or [`@artiga033:matrix.org`](https://matrix.to/#/@artiga033:matrix.org)
 - <img width="16px" height="16px" src="https://telegram.org/img/favicon-16x16.png" /> [Telegram](https://t.me/artiga033)
-- ~~<img width="16px" height="16px" src="https://mastodon.social/favicon.ico" /> <a rel="me" href="https://mastodon.social/@artiga033">Mastodon</a>~~
+- <img width="16px" height="16px" src="https://www.bilibili.com/favicon.ico" /> [bilibili](https://space.bilibili.com/7475074)
+- ~~<img width="16px" height="16px" src="https://matrix.org/assets/favicon.svg" /> [`@artiga033:a33.su`](https://matrix.to/#/@artiga033:a33.su) or [`@artiga033:matrix.org`](https://matrix.to/#/@artiga033:matrix.org)~~
 
 *Even if you may find "me" on any social media, sadly I rarely use them.*
 
@@ -32,4 +32,4 @@ My Stack:
 | **CanWrite**  |C#,Javascript,Python,Rust,Golang|C/C++,F#
 |               |Java,Kotlin,php,Lua             |
 
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=artiga033&layout=compact&langs_count=10&bg_color=33,4A9E9F,A8E6E6 "languages")
+![langs](https://github-stats-extended.vercel.app/api/top-langs/?username=artiga033&layout=compact&langs_count=10&bg_color=33,ccbbff,ddaacc "languages")
