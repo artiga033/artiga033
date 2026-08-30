@@ -4,7 +4,7 @@ Rust/.NET Dev | ** Average Electronic Game Player(& on my way to a creator)
 
 Find me: 
 - [**a33.su**](https://a33.su)
-- <img width="16px" height="16px" src="https://blog.a33.su/favicon.svg" /> [Blog](https://blog.artiga.top)<br/>
+- <img width="16px" height="16px" src="https://blog.a33.su/favicon.svg" /> [Blog](https://blog.a33.su)<br/>
 - 📧[artiga033@hotmail.com](mailto:artiga033@hotmail.com)<br/>
 - <img width="16px" height="16px" src="https://telegram.org/img/favicon-16x16.png" /> [Telegram](https://t.me/artiga033)
 - <img width="16px" height="16px" src="https://www.bilibili.com/favicon.ico" /> [bilibili](https://space.bilibili.com/7475074)
